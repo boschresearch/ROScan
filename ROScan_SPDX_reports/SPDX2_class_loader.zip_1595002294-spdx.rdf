@@ -1,0 +1,2498 @@
+﻿<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<spdx:SpdxDocument rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-DOCUMENT">
+  <spdx:specVersion>SPDX-2.1</spdx:specVersion>
+  <spdx:dataLicense rdf:resource="http://spdx.org/licenses/CC0-1.0" />
+  <spdx:creationInfo>
+    <spdx:CreationInfo>
+      <spdx:licenseListVersion>2.6</spdx:licenseListVersion>
+      <spdx:creator>Organization: </spdx:creator>
+      <spdx:creator>Tool: spdx2</spdx:creator>
+      <spdx:created>2020-07-17T16:11:34Z</spdx:created>
+    </spdx:CreationInfo>
+  </spdx:creationInfo>
+  <spdx:name>/srv/fossology/repository/report</spdx:name>
+  <rdfs:comment>
+    This document was created using license information and a generator from Fossology.
+  </rdfs:comment>
+    <spdx:hasExtractedLicensingInfo>
+    <spdx:ExtractedLicensingInfo rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-No_license_found">
+      <spdx:licenseId>LicenseRef-No_license_found</spdx:licenseId>
+      <spdx:name>No_license_found</spdx:name>
+      <spdx:extractedText><![CDATA[
+Not find any license in the scanned file
+      ]]></spdx:extractedText>
+    </spdx:ExtractedLicensingInfo>
+  </spdx:hasExtractedLicensingInfo>
+  <spdx:hasExtractedLicensingInfo>
+    <spdx:ExtractedLicensingInfo rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause">
+      <spdx:licenseId>LicenseRef-BSD-3-Clause</spdx:licenseId>
+      <spdx:name>BSD 3-Clause &quot;New&quot; or &quot;Revised&quot; License</spdx:name>
+      <spdx:extractedText><![CDATA[
+Copyright (c) <year> <owner>. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+   1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+   2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+   3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+      ]]></spdx:extractedText>
+    </spdx:ExtractedLicensingInfo>
+  </spdx:hasExtractedLicensingInfo>
+  <spdx:hasExtractedLicensingInfo>
+    <spdx:ExtractedLicensingInfo rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-UnclassifiedLicense">
+      <spdx:licenseId>LicenseRef-UnclassifiedLicense</spdx:licenseId>
+      <spdx:name>UnclassifiedLicense</spdx:name>
+      <spdx:extractedText><![CDATA[
+An unclassified license reference looks like a license (it contains common license terminology) but we don't recognize a specific license.
+      ]]></spdx:extractedText>
+    </spdx:ExtractedLicensingInfo>
+  </spdx:hasExtractedLicensingInfo>
+  <spdx:hasExtractedLicensingInfo>
+    <spdx:ExtractedLicensingInfo rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-License_info">
+      <spdx:licenseId>LicenseRef-License_info</spdx:licenseId>
+      <spdx:name>License_info</spdx:name>
+      <spdx:extractedText><![CDATA[
+For text files containing elements which FOSSology identify as license evidence (e.g. Podspec files, readme files)
+we use the pseudo-license “License info” to indicate that the file contains a license evidence.
+
+The conclusion about the license evidence is done outside of the FOSSology clearing
+      ]]></spdx:extractedText>
+    </spdx:ExtractedLicensingInfo>
+  </spdx:hasExtractedLicensingInfo>
+  <spdx:hasExtractedLicensingInfo>
+    <spdx:ExtractedLicensingInfo rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-GPL">
+      <spdx:licenseId>LicenseRef-GPL</spdx:licenseId>
+      <spdx:name>GNU General Public License</spdx:name>
+      <spdx:extractedText><![CDATA[
+GPL is referenced without a version number. Please look up GPL in the License Admin to view the different versions.
+      ]]></spdx:extractedText>
+    </spdx:ExtractedLicensingInfo>
+  </spdx:hasExtractedLicensingInfo>
+  <spdx:hasExtractedLicensingInfo>
+    <spdx:ExtractedLicensingInfo rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-WebM">
+      <spdx:licenseId>LicenseRef-WebM</spdx:licenseId>
+      <spdx:name>WebM Software License</spdx:name>
+      <spdx:extractedText><![CDATA[
+Software License
+Copyright (c) 2010, Google Inc. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+Neither the name of Google nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+      ]]></spdx:extractedText>
+    </spdx:ExtractedLicensingInfo>
+  </spdx:hasExtractedLicensingInfo>
+  <spdx:hasExtractedLicensingInfo>
+    <spdx:ExtractedLicensingInfo rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-possibility">
+      <spdx:licenseId>LicenseRef-BSD-possibility</spdx:licenseId>
+      <spdx:name>BSD-possibility</spdx:name>
+      <spdx:extractedText><![CDATA[
+License by Nomos.
+      ]]></spdx:extractedText>
+    </spdx:ExtractedLicensingInfo>
+  </spdx:hasExtractedLicensingInfo>
+  <spdx:relationship>
+    <spdx:Relationship>
+      <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_describes" />
+      <spdx:relatedSpdxElement>
+        <spdx:Package rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-upload12864">
+          <spdx:name>class_loader.zip</spdx:name>
+          <spdx:packageFileName>class_loader.zip</spdx:packageFileName>
+          <spdx:downloadLocation rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+          <spdx:packageVerificationCode>
+            <spdx:PackageVerificationCode>
+            <spdx:packageVerificationCodeValue>9bb942c83aa25e2feac259238e07c54565b3e5cf</spdx:packageVerificationCodeValue>
+            </spdx:PackageVerificationCode>
+          </spdx:packageVerificationCode>
+          <spdx:checksum>
+            <spdx:Checksum>
+              <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+              <spdx:checksumValue>c125fd80eb9fc13c322c83ab7a3f20b3f4ac6b77</spdx:checksumValue>
+            </spdx:Checksum>
+          </spdx:checksum>
+          <spdx:checksum> 
+            <spdx:Checksum>
+              <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+              <spdx:checksumValue>3ec19626b2436db7a85525f6182f309d</spdx:checksumValue>
+            </spdx:Checksum>
+          </spdx:checksum>
+          <spdx:licenseConcluded>
+            <spdx:DisjunctiveLicenseSet>
+                  <spdx:member rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                </spdx:DisjunctiveLicenseSet>
+          </spdx:licenseConcluded>
+          <spdx:licenseComments><![CDATA[
+            licenseInfoInFile determined by Scanners:
+   - nomos ("3.5.0-20-gbed7e922".bed7e9)
+   - monk ("3.5.0-20-gbed7e922".bed7e9)
+   - ninka ("3.5.0-20-gbed7e922".bed7e9)
+          ]]></spdx:licenseComments>
+          <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+          <spdx:licenseDeclared rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+          <spdx:licenseInfoFromFiles rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+          <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+          
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51661986">
+                <spdx:fileName>class_loader/test/plugins2.cpp</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>62afc612108f2ff799de78b0476ff2633ddf0d2c</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>45ed117658f4fb5b6493432597003ce6</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded>
+                  <spdx:DisjunctiveLicenseSet>
+                    <spdx:member rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                  </spdx:DisjunctiveLicenseSet>
+                </spdx:licenseConcluded>
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-WebM" />
+                <spdx:copyrightText><![CDATA[
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. Neither the name of the Willow Garage, Inc. nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. Neither the name of the Willow Garage, Inc. nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  Copyright (c) 2012, Willow Garage, Inc. All rights reserved.
+                  Copyright (c) 2012, Willow Garage, Inc. All rights reserved.
+                ]]></spdx:copyrightText>
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51661998">
+                <spdx:fileName>class_loader/package.xml</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>282286d3c8feca65bdec60b0a07177bc8392cef0</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>826d7d8bb1374262e763a9a42ddd90c4</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded>
+                  <spdx:DisjunctiveLicenseSet>
+                    <spdx:member rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-License_info" />
+                  </spdx:DisjunctiveLicenseSet>
+                </spdx:licenseConcluded>
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-possibility" />
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-UnclassifiedLicense" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51661984">
+                <spdx:fileName>class_loader/test/utest.cpp</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>538b28e483e0889274a47d9f15e15f5930010d2f</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>6d0ad3853bc2b17c62a5dcce74a5fc44</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded>
+                  <spdx:DisjunctiveLicenseSet>
+                    <spdx:member rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                  </spdx:DisjunctiveLicenseSet>
+                </spdx:licenseConcluded>
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-WebM" />
+                <spdx:copyrightText><![CDATA[
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. Neither the name of the Willow Garage, Inc. nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. Neither the name of the Willow Garage, Inc. nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  Copyright (c) 2012, Willow Garage, Inc. All rights reserved.
+                  Copyright (c) 2012, Willow Garage, Inc. All rights reserved.
+                ]]></spdx:copyrightText>
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51661985">
+                <spdx:fileName>class_loader/test/unique_ptr_test.cpp</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>cac74ca2e99b77ee3d3c88c667d7b8ddb47844ce</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>f884d4df34d9bb594e078a29f4e26ab9</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded>
+                  <spdx:DisjunctiveLicenseSet>
+                    <spdx:member rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                  </spdx:DisjunctiveLicenseSet>
+                </spdx:licenseConcluded>
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-WebM" />
+                <spdx:copyrightText><![CDATA[
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. Neither the name of the Willow Garage, Inc. nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. Neither the name of the Willow Garage, Inc. nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  Copyright (c) 2016, Delft Robotics B.V. All rights reserved.
+                  Copyright (c) 2016, Delft Robotics B.V. All rights reserved.
+                  Copyright (c) 2012, Willow Garage, Inc.
+                  Copyright (c) 2012, Willow Garage, Inc.
+                ]]></spdx:copyrightText>
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51661987">
+                <spdx:fileName>class_loader/test/plugins1.cpp</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>1704b00cdd9805345d074aeac4d02ae618ed105f</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>904ccb6841449ee4afb116ddf293e5aa</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded>
+                  <spdx:DisjunctiveLicenseSet>
+                    <spdx:member rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                  </spdx:DisjunctiveLicenseSet>
+                </spdx:licenseConcluded>
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-WebM" />
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                <spdx:copyrightText><![CDATA[
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. Neither the name of the Willow Garage, Inc. nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. Neither the name of the Willow Garage, Inc. nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  Copyright (c) 2012, Willow Garage, Inc. All rights reserved.
+                  Copyright (c) 2012, Willow Garage, Inc. All rights reserved.
+                ]]></spdx:copyrightText>
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51661989">
+                <spdx:fileName>class_loader/test/base.hpp</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>b6aa50152f780426ccfc8bababa90dcdb651f951</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>3aa7bc5867f2719f61c55ceab3c10540</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded>
+                  <spdx:DisjunctiveLicenseSet>
+                    <spdx:member rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                  </spdx:DisjunctiveLicenseSet>
+                </spdx:licenseConcluded>
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-WebM" />
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                <spdx:copyrightText><![CDATA[
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. Neither the name of the Willow Garage, Inc. nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. Neither the name of the Willow Garage, Inc. nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  Copyright (c) 2012, Willow Garage, Inc. All rights reserved.
+                  Copyright (c) 2012, Willow Garage, Inc. All rights reserved.
+                ]]></spdx:copyrightText>
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51661991">
+                <spdx:fileName>class_loader/src/multi_library_class_loader.cpp</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>1b75be76c166f3ded910b99afff1c91c9801a372</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>e2043ca03d3cf5158e5879cff3c9a41e</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded>
+                  <spdx:DisjunctiveLicenseSet>
+                    <spdx:member rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                  </spdx:DisjunctiveLicenseSet>
+                </spdx:licenseConcluded>
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-WebM" />
+                <spdx:copyrightText><![CDATA[
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. Neither the name of the Willow Garage, Inc. nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. Neither the name of the Willow Garage, Inc. nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  Copyright (c) 2012, Willow Garage, Inc. All rights reserved.
+                  Copyright (c) 2012, Willow Garage, Inc. All rights reserved.
+                ]]></spdx:copyrightText>
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51661992">
+                <spdx:fileName>class_loader/src/meta_object.cpp</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>6d9447967e5da4b4b4d8b4c123ab9c8eb894db97</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>13465f0b05cddda8c2a0cee030c0a304</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded>
+                  <spdx:DisjunctiveLicenseSet>
+                    <spdx:member rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                  </spdx:DisjunctiveLicenseSet>
+                </spdx:licenseConcluded>
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-WebM" />
+                <spdx:copyrightText><![CDATA[
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. Neither the name of the Willow Garage, Inc. nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. Neither the name of the Willow Garage, Inc. nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  Copyright (c) 2012, Willow Garage, Inc. All rights reserved.
+                  Copyright (c) 2012, Willow Garage, Inc. All rights reserved.
+                ]]></spdx:copyrightText>
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51661995">
+                <spdx:fileName>class_loader/src/class_loader.cpp</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>5d69a04a1cd72bf2c3d9139dbd37e05359584720</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>f3ebadd51274d8b24766cb33ccc623c7</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded>
+                  <spdx:DisjunctiveLicenseSet>
+                    <spdx:member rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                  </spdx:DisjunctiveLicenseSet>
+                </spdx:licenseConcluded>
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-WebM" />
+                <spdx:copyrightText><![CDATA[
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. Neither the name of the Willow Garage, Inc. nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. Neither the name of the Willow Garage, Inc. nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  Copyright (c) 2012, Willow Garage, Inc. All rights reserved.
+                  Copyright (c) 2012, Willow Garage, Inc. All rights reserved.
+                ]]></spdx:copyrightText>
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51661993">
+                <spdx:fileName>class_loader/src/class_loader_core.cpp</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>9e65ed5df57af7c54e78aa4fedddc7b349617708</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>ae71482e16b190ed482c3e6be84f113f</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded>
+                  <spdx:DisjunctiveLicenseSet>
+                    <spdx:member rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                  </spdx:DisjunctiveLicenseSet>
+                </spdx:licenseConcluded>
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-WebM" />
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                <spdx:copyrightText><![CDATA[
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. Neither the name of the Willow Garage, Inc. nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. Neither the name of the Willow Garage, Inc. nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  Copyright (c) 2012, Willow Garage, Inc. All rights reserved.
+                  Copyright (c) 2012, Willow Garage, Inc. All rights reserved.
+                ]]></spdx:copyrightText>
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51661997">
+                <spdx:fileName>class_loader/scripts/class_loader_headers_update.py</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>7e9a876280aaad4f5863f33f3592333230505711</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>bcc2ea5ffebda9bc41758674ce07de97</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded>
+                  <spdx:DisjunctiveLicenseSet>
+                    <spdx:member rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                  </spdx:DisjunctiveLicenseSet>
+                </spdx:licenseConcluded>
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-WebM" />
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                <spdx:copyrightText><![CDATA[
+                  copyright notice, this list of conditions and the following disclaimer. Redistributions in binary form must reproduce the above
+                  copyright notice, this list of conditions and the following disclaimer. Redistributions in binary form must reproduce the above
+                  Copyright (c) 2018, Open Source Robotics Foundation, Inc. All rights reserved.
+                  Copyright (c) 2018, Open Source Robotics Foundation, Inc. All rights reserved.
+                ]]></spdx:copyrightText>
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662001">
+                <spdx:fileName>class_loader/include/class_loader/register_macro.hpp</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>bb3ca3c639ad6952985b4dbe8bc346826968e208</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>3f9d609dd136e2f6316a5f4871962f22</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded>
+                  <spdx:DisjunctiveLicenseSet>
+                    <spdx:member rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                  </spdx:DisjunctiveLicenseSet>
+                </spdx:licenseConcluded>
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-WebM" />
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                <spdx:copyrightText><![CDATA[
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  Copyright (c) 2012, Willow Garage, Inc. All rights reserved.
+                  Copyright (c) 2012, Willow Garage, Inc. All rights reserved.
+                ]]></spdx:copyrightText>
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662002">
+                <spdx:fileName>class_loader/include/class_loader/multi_library_class_loader.hpp</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>6a63a4a1e7f977bbbe1a8aa46fe3861f49e456b7</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>0c919dc5284e0cb1f08eb38f5470b65b</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded>
+                  <spdx:DisjunctiveLicenseSet>
+                    <spdx:member rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                  </spdx:DisjunctiveLicenseSet>
+                </spdx:licenseConcluded>
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-WebM" />
+                <spdx:copyrightText><![CDATA[
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  Copyright (c) 2012, Willow Garage, Inc. All rights reserved.
+                  Copyright (c) 2012, Willow Garage, Inc. All rights reserved.
+                ]]></spdx:copyrightText>
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662003">
+                <spdx:fileName>class_loader/include/class_loader/multi_library_class_loader.h</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>195de5089f66fb107786898135af5c046b29337c</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>237a333557a1db77cd6c77a9f03139b1</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded>
+                  <spdx:DisjunctiveLicenseSet>
+                    <spdx:member rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                  </spdx:DisjunctiveLicenseSet>
+                </spdx:licenseConcluded>
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-WebM" />
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                <spdx:copyrightText><![CDATA[
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  Copyright (c) 2018, Open Source Robotics Foundation, Inc. All rights reserved.
+                  Copyright (c) 2018, Open Source Robotics Foundation, Inc. All rights reserved.
+                ]]></spdx:copyrightText>
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662004">
+                <spdx:fileName>class_loader/include/class_loader/meta_object.hpp</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>04c2bcaa2678903bf88bb8f9e5786e8bd29cbfd3</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>0bc7d3f327e2c7b0122b91722529fd2f</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded>
+                  <spdx:DisjunctiveLicenseSet>
+                    <spdx:member rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                  </spdx:DisjunctiveLicenseSet>
+                </spdx:licenseConcluded>
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-WebM" />
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                <spdx:copyrightText><![CDATA[
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  Copyright (c) 2012, Willow Garage, Inc. All rights reserved.
+                  Copyright (c) 2012, Willow Garage, Inc. All rights reserved.
+                ]]></spdx:copyrightText>
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662005">
+                <spdx:fileName>class_loader/include/class_loader/meta_object.h</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>93d3a7a5aa48eec367fb83185e94508342b7e724</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>639d6b29e3a2feb213f3fb021f14927f</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded>
+                  <spdx:DisjunctiveLicenseSet>
+                    <spdx:member rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                  </spdx:DisjunctiveLicenseSet>
+                </spdx:licenseConcluded>
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-WebM" />
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                <spdx:copyrightText><![CDATA[
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  Copyright (c) 2018, Open Source Robotics Foundation, Inc. All rights reserved.
+                  Copyright (c) 2018, Open Source Robotics Foundation, Inc. All rights reserved.
+                ]]></spdx:copyrightText>
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662006">
+                <spdx:fileName>class_loader/include/class_loader/exceptions.hpp</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>bff666cef4875e916d94379e63f8aedb229fdf2b</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>1233d3ac170298ab9f1e71c8d9a7ea7e</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded>
+                  <spdx:DisjunctiveLicenseSet>
+                    <spdx:member rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                  </spdx:DisjunctiveLicenseSet>
+                </spdx:licenseConcluded>
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-WebM" />
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                <spdx:copyrightText><![CDATA[
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  Copyright (c) 2012, Willow Garage, Inc. All rights reserved.
+                  Copyright (c) 2012, Willow Garage, Inc. All rights reserved.
+                ]]></spdx:copyrightText>
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662007">
+                <spdx:fileName>class_loader/include/class_loader/console_bridge_compatibility.hpp</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>542b0ee40cfb7256e6a22e41a1eedb9d31dc16d0</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>425e5512293b7ee76b8e6209c6dd506b</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded>
+                  <spdx:DisjunctiveLicenseSet>
+                    <spdx:member rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                  </spdx:DisjunctiveLicenseSet>
+                </spdx:licenseConcluded>
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-WebM" />
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                <spdx:copyrightText><![CDATA[
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. Neither the name of the Open Source Robotics Foundation, Inc. nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. Neither the name of the Open Source Robotics Foundation, Inc. nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  Copyright (c) 2017, Open Source Robotics Foundation, Inc. All rights reserved.
+                  Copyright (c) 2017, Open Source Robotics Foundation, Inc. All rights reserved.
+                ]]></spdx:copyrightText>
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662008">
+                <spdx:fileName>class_loader/include/class_loader/console_bridge_compatibility.h</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>62d5f29ccc5fed88afd12777054c615762d7ea61</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>b596b106b840dab4f313997247125a91</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded>
+                  <spdx:DisjunctiveLicenseSet>
+                    <spdx:member rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                  </spdx:DisjunctiveLicenseSet>
+                </spdx:licenseConcluded>
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-WebM" />
+                <spdx:copyrightText><![CDATA[
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  Copyright (c) 2018, Open Source Robotics Foundation, Inc. All rights reserved.
+                  Copyright (c) 2018, Open Source Robotics Foundation, Inc. All rights reserved.
+                ]]></spdx:copyrightText>
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662009">
+                <spdx:fileName>class_loader/include/class_loader/class_loader_register_macro.h</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>80b3fa0c3066a1f527d2adf1e06c10b114b45a1d</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>0095675b946626220be1fce859922d47</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded>
+                  <spdx:DisjunctiveLicenseSet>
+                    <spdx:member rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                  </spdx:DisjunctiveLicenseSet>
+                </spdx:licenseConcluded>
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-WebM" />
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                <spdx:copyrightText><![CDATA[
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  Copyright (c) 2018, Open Source Robotics Foundation, Inc. All rights reserved.
+                  Copyright (c) 2018, Open Source Robotics Foundation, Inc. All rights reserved.
+                ]]></spdx:copyrightText>
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662013">
+                <spdx:fileName>class_loader/include/class_loader/class_loader.hpp</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>9a6e905eb6965564acbe0aae6c4eaf95159fcb3f</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>8c05a006b655db0ee7caf525d76f21c7</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded>
+                  <spdx:DisjunctiveLicenseSet>
+                    <spdx:member rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                  </spdx:DisjunctiveLicenseSet>
+                </spdx:licenseConcluded>
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-WebM" />
+                <spdx:copyrightText><![CDATA[
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  Copyright (c) 2012, Willow Garage, Inc. All rights reserved.
+                  Copyright (c) 2012, Willow Garage, Inc. All rights reserved.
+                ]]></spdx:copyrightText>
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662014">
+                <spdx:fileName>class_loader/include/class_loader/class_loader.h</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>9998ff0d984728b321be17491f3a3d2610c37212</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>311e52fb26f1df6f434a469422942a10</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded>
+                  <spdx:DisjunctiveLicenseSet>
+                    <spdx:member rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                  </spdx:DisjunctiveLicenseSet>
+                </spdx:licenseConcluded>
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-WebM" />
+                <spdx:copyrightText><![CDATA[
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  Copyright (c) 2018, Open Source Robotics Foundation, Inc. All rights reserved.
+                  Copyright (c) 2018, Open Source Robotics Foundation, Inc. All rights reserved.
+                ]]></spdx:copyrightText>
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662091">
+                <spdx:fileName>class_loader/.git/hooks/pre-rebase.sample</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>18be3eb275c1decd3614e139f5a311b75f1b0ab8</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>3ff6ba9cf6d8e5332978e057559b5562</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-UnclassifiedLicense" />
+                <spdx:copyrightText><![CDATA[
+                  Copyright (c) 2006, 2008 Junio C Hamano
+                  Copyright (c) 2006, 2008 Junio C Hamano
+                  Copyright (c) 2006, 2008 Junio C Hamano
+                  Copyright (c) 2006, 2008 Junio C Hamano
+                  Copyright (c) 2006, 2008 Junio C Hamano
+                  Copyright (c) 2006, 2008 Junio C Hamano
+                  Copyright (c) 2006, 2008 Junio C Hamano
+                  Copyright (c) 2006, 2008 Junio C Hamano
+                ]]></spdx:copyrightText>
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662010">
+                <spdx:fileName>class_loader/include/class_loader/class_loader_exceptions.h</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>1011a2d4eb7565006b89d70ea1aabe31da7ac2c2</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>2bd66aa87835fdd9f814ae9a8cb3f457</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded>
+                  <spdx:DisjunctiveLicenseSet>
+                    <spdx:member rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                  </spdx:DisjunctiveLicenseSet>
+                </spdx:licenseConcluded>
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-WebM" />
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                <spdx:copyrightText><![CDATA[
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  Copyright (c) 2018, Open Source Robotics Foundation, Inc. All rights reserved.
+                  Copyright (c) 2018, Open Source Robotics Foundation, Inc. All rights reserved.
+                ]]></spdx:copyrightText>
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662011">
+                <spdx:fileName>class_loader/include/class_loader/class_loader_core.hpp</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>9df765b26c012a9be4ed6982eb1069fd77a962d8</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>722437a8d613323d4ed3f7a5b9154e46</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded>
+                  <spdx:DisjunctiveLicenseSet>
+                    <spdx:member rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                  </spdx:DisjunctiveLicenseSet>
+                </spdx:licenseConcluded>
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-WebM" />
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                <spdx:copyrightText><![CDATA[
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  Copyright (c) 2012, Willow Garage, Inc. All rights reserved.
+                  Copyright (c) 2012, Willow Garage, Inc. All rights reserved.
+                ]]></spdx:copyrightText>
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662012">
+                <spdx:fileName>class_loader/include/class_loader/class_loader_core.h</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>099db639b630001779c6e15fcbbb2687a2115cff</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>9a659528bcce89dd8e92e8f7365f7ab3</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded>
+                  <spdx:DisjunctiveLicenseSet>
+                    <spdx:member rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                  </spdx:DisjunctiveLicenseSet>
+                </spdx:licenseConcluded>
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-BSD-3-Clause" />
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-WebM" />
+                <spdx:copyrightText><![CDATA[
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+                  copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  copyright notice, this list of conditions and the following disclaimer.
+                  Copyright (c) 2018, Open Source Robotics Foundation, Inc. All rights reserved.
+                  Copyright (c) 2018, Open Source Robotics Foundation, Inc. All rights reserved.
+                ]]></spdx:copyrightText>
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662060">
+                <spdx:fileName>class_loader/.git/refs/tags/0.1.19</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>beb8833ffaa716feac733125c0566f9bdddfdfd9</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>0bbfe6c3078cc883b05456a6e630dccc</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662097">
+                <spdx:fileName>class_loader/.git/hooks/applypatch-msg.sample</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>4de88eb95a5e93fd27e78b5fb3b5231a8d8917dd</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>ce562e08d8098926a3862fc6e7905199</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662050">
+                <spdx:fileName>class_loader/.git/refs/tags/0.1.3</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>e93fd72e0da60856856e6d694bac20f52e5a80f6</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>f3c1426bff2c06308013598df5e91efe</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662092">
+                <spdx:fileName>class_loader/.git/hooks/pre-push.sample</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>5c8518bfd1d1d3d2c1a7194994c0a16d8a313a41</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>3c5989301dd4b949dfa1f43738a22819</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662022">
+                <spdx:fileName>class_loader/cmake/class_loader-extras.cmake</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>07f113ba4cb3b0c5da5a4bf506c8e7727799d5c5</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>47df5b4f615e16e93d75b0067e11a6b6</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662038">
+                <spdx:fileName>class_loader/.git/refs/tags/0.2.5</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>228f8133ccc861da4da10dd24652e1a20e58c3a5</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>5b650669da1ed673d27fb9412050a3ec</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662089">
+                <spdx:fileName>class_loader/.git/hooks/update.sample</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>e729cd61b27c128951d139de8e7c63d1a3758dde</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>517f14b9239689dff8bda3022ebd9004</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662018">
+                <spdx:fileName>class_loader/doc/class_loader_classdiagram.dia/class_loader_classdiagram</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>59cad49d529b643159ed800eb88aa9316d9e08ae</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>96e89f1c487c7adf13434a5b4b87cf0b</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662044">
+                <spdx:fileName>class_loader/.git/refs/tags/0.1.9</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>b80a219c5cd42254e0cf535d4785d3ed6a7004bc</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>d4f55216f430ff997da2c571042085a2</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51661994">
+                <spdx:fileName>class_loader/src/class_loader.pc.in</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>44e2a4743bc8cb095397dfe3f09fa608db89abc6</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>323584233c53762bf1b57b0d3937dcf6</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662058">
+                <spdx:fileName>class_loader/.git/refs/tags/0.1.20</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>4a8a02e87889a85c53ca3bc3d782d6e30e116f9b</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>2d4051f40eb1121e420208fbc7a35d9d</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662066">
+                <spdx:fileName>class_loader/.git/refs/tags/0.1.13</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>7150569232cac687cdf1ae66cd7616bb96b9166e</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>624c7215935ade13b5db779dabeea048</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662062">
+                <spdx:fileName>class_loader/.git/refs/tags/0.1.17</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>42aaba2b37d3a77031ec27ea374e652b653a8c46</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>f73ff80a83abc4540ac31465a4ccba4a</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662030">
+                <spdx:fileName>class_loader/.git/refs/tags/0.3.7</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>00a4244952772a213dd1dafba4401eceb5b6ef40</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>cdcee2d40a455048fcac9fbcca962018</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662021">
+                <spdx:fileName>class_loader/cmake/PocoConfig.cmake</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>8d918a421753a9c2869ddb7f9c31a36e3815e7d8</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>97b137b3b2aaf498a0d68a6eaa113553</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662019">
+                <spdx:fileName>class_loader/CMakeLists.txt</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>72651b061720fc5df93b6d166e11be4681cbe2b3</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>359589715dbea13050da5fddd5511342</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662051">
+                <spdx:fileName>class_loader/.git/refs/tags/0.1.27</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>010a36a381f216aa1c7067a99ecf71faf42dbd12</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>cfc07c5974a305d2371873247bb2de2e</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662036">
+                <spdx:fileName>class_loader/.git/refs/tags/0.3.1</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>4bf7043bd0df8b980a4821e5af789105e25a335c</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>af6db6f49fadb8e2d2e6edffd20b9f99</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662035">
+                <spdx:fileName>class_loader/.git/refs/tags/0.3.2</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>213424bd6e47b50109dc6032c317098c99cc0e7e</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>91985255c619b4e69aa6479c0d36b7e0</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662023">
+                <spdx:fileName>class_loader/CHANGELOG.rst</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>1cfefe82b20b3b87542ea419dd9fe2c17b5a0e9d</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>65c193381690327d9f81016e3f9a8b01</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-UnclassifiedLicense" />
+                <spdx:copyrightText><![CDATA[
+                  copyright] OSRF and not willow in licence header (`#67 <https://github.com/ros/class_loader/issues/67>`_) Contributors: David Wagner, Diego Cesar, Mikael Arguedas
+                  copyright] OSRF and not willow in licence header (`#67 <https://github.com/ros/class_loader/issues/67>`_) Contributors: David Wagner, Diego Cesar, Mikael Arguedas
+                ]]></spdx:copyrightText>
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662061">
+                <spdx:fileName>class_loader/.git/refs/tags/0.1.18</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>dfb13c6d37c6506977ed201c76c3d53c084c4c65</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>1f64dfb9627cb1c73f37c1ac1cab358e</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662095">
+                <spdx:fileName>class_loader/.git/hooks/post-update.sample</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>b614c2f63da7dca9f1db2e7ade61ef30448fc96c</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>2b7ea5cee3c49ff53d41e00785eb974c</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662034">
+                <spdx:fileName>class_loader/.git/refs/tags/0.3.3</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>583c5390f319c40018f7dc1e1c5f626718d0df67</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>622a7b03101332444dded25c73bf4a15</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662037">
+                <spdx:fileName>class_loader/.git/refs/tags/0.3.0</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>8190c248530c44ad6402dc7fcbd7927d525c24fc</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>e6e00f6d028fd5fd3f3d075374a7fde1</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662028">
+                <spdx:fileName>class_loader/.git/refs/tags/0.3.9</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>e079376b48655320638c76c002e65bd05d734c76</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>4ff198b3560c1218b64dfb545d8e1e07</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662047">
+                <spdx:fileName>class_loader/.git/refs/tags/0.1.6</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>6f2eaa8738612a6dac4eb76fdf705b8b9f0b18cd</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>b8edbb525a050a1d1daa4196a9df9647</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662094">
+                <spdx:fileName>class_loader/.git/hooks/pre-applypatch.sample</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>f208287c1a92525de9f5462e905a9d31de1e2d75</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>054f9ffb8bfe04a599751cc757226dda</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662084">
+                <spdx:fileName>class_loader/.git/logs/HEAD</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>6d06f7cb54d38abd29a933a056e6752aab21e52b</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>0d7f74a6060d62016f1194b6276ae550</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662071">
+                <spdx:fileName>class_loader/.git/refs/tags/0.1.0</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>b73bab8ec297f32098f27276b345f923389ece6d</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>13c94c0c758b94463ea167e0bcae51b9</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662048">
+                <spdx:fileName>class_loader/.git/refs/tags/0.1.5</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>5931559910f828b5d3c68dde8a7e6a638903c398</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>e2f8b4d21f53a606ebb0c5a8ba410647</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662078">
+                <spdx:fileName>class_loader/.git/objects/pack/pack-23ae460ec85bb99fb0b7c67661b5f2185966349e.idx</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>1cfd0f640dac40c50936dea00d8565c03e072359</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>28ab0eaed8e81c043bf986ae17221df6</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662024">
+                <spdx:fileName>class_loader/.gitignore</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>195912589a3e2747d192abe71dd88476232b97b3</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>5a28727c7e1d3be6f61e9f5da56a5248</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662032">
+                <spdx:fileName>class_loader/.git/refs/tags/0.3.5</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>5346b18a091f1a7b231675e3a25e8cf50e5757dc</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>aeb3256562fb3cb8de962bfe4547e514</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662043">
+                <spdx:fileName>class_loader/.git/refs/tags/0.2.0</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>8e4e5287d2dc69e20bf2fbf5e49484f1e7e731ad</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>369a710536b8c8eb5d1e8bcb2ae05ac2</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662041">
+                <spdx:fileName>class_loader/.git/refs/tags/0.2.2</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>408c4bca9b7ed3d659c6fbe68f85e26e9ce3baf5</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>959be24834a1631ede6eb76288b8d984</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662083">
+                <spdx:fileName>class_loader/.git/logs/refs/heads/indigo-devel</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>6d06f7cb54d38abd29a933a056e6752aab21e52b</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>0d7f74a6060d62016f1194b6276ae550</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662055">
+                <spdx:fileName>class_loader/.git/refs/tags/0.1.23</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>de523683fc8781f220ca42c26fe5cc703c4822dc</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>b74bc0dcc360d085d9e5ace3ee60ae72</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662031">
+                <spdx:fileName>class_loader/.git/refs/tags/0.3.6</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>691b0a542226ebe57da5abed4079352121b0783b</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>b7e662ff89e063d258af8a0a5f3cded1</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662029">
+                <spdx:fileName>class_loader/.git/refs/tags/0.3.8</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>408410c38819690b9574706f49fa204bd5cd00b8</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>b8b76bd3851168ea8570a65cd1b88ccd</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662077">
+                <spdx:fileName>class_loader/.git/objects/pack/pack-23ae460ec85bb99fb0b7c67661b5f2185966349e.pack</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>9f1ac31d0a01a3cf3e37063fe194ba6636771e59</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>882d3ccc0304cabe84df4de088b37f08</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="SPDX2_class_loader.zip_1595002294-spdx.rdf#LicenseRef-GPL" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662056">
+                <spdx:fileName>class_loader/.git/refs/tags/0.1.22</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>42bf6d6bcd3021a61d8b2a4650ed8f0dd7a12033</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>7fb5128c71b270a199efd217c48c8166</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662069">
+                <spdx:fileName>class_loader/.git/refs/tags/0.1.10</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>1bb86124a43a59008326854d646263dfe75d9f20</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>f4cce112c4dcd542687eaeba9f1a3564</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662074">
+                <spdx:fileName>class_loader/.git/packed-refs</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>ea3e98267e1777df92ebce1615bd30179cec0d71</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>091fcdec188446bca7f0e5422ea7c465</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662087">
+                <spdx:fileName>class_loader/.git/index</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>8515e743f7c1b1dd4c4097388416b0bc00232ec4</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>b6c0051ddf8c826a1be9121aa271cc72</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662059">
+                <spdx:fileName>class_loader/.git/refs/tags/0.1.2</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>a63739042fec65340a9cc4448c690a5cac9eb4c2</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>4bff51c46e5ac88307143d0b0d82eeeb</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662053">
+                <spdx:fileName>class_loader/.git/refs/tags/0.1.25</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>52a2336146f92ba7f5e9391874f0ed7857f487fa</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>24e1add1e478ec119cbdf292b0f831a9</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662063">
+                <spdx:fileName>class_loader/.git/refs/tags/0.1.16</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>2515cba1c072eb1d057a23649ccaa05eadf84e29</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>30b3e65a7544224021f985710d41cde7</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662042">
+                <spdx:fileName>class_loader/.git/refs/tags/0.2.1</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>6a835587b5ac5e71096c814cf0fef05aecaecd0a</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>500b3727c3e61182463983183e80f10b</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662098">
+                <spdx:fileName>class_loader/.git/HEAD</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>262539c8d5f68da624c0b77fb34fed811edfcd2c</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>6dade2722d49bb965fd18f446218dd0b</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662057">
+                <spdx:fileName>class_loader/.git/refs/tags/0.1.21</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>3af94e7b204cad3d3d51b0747fb1ff02ede52df0</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>66c3e6cd688208b76069b4aa5cd899fe</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662073">
+                <spdx:fileName>class_loader/.git/refs/heads/indigo-devel</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>086743fd4e414850f8af7648e77de4f04f013ae2</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>2acc8fb25108beb7bdaa38c95ecc829b</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662068">
+                <spdx:fileName>class_loader/.git/refs/tags/0.1.11</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>eab4dfe4dc95ceb88778806b9cb1b65cfad986d0</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>c627b412089beb0d5bed9a0c07b07e24</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662090">
+                <spdx:fileName>class_loader/.git/hooks/prepare-commit-msg.sample</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>2b6275eda365cad50d167fe3a387c9bc9fedd54f</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>7dfe15854212a30f346da5255c1d794b</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662033">
+                <spdx:fileName>class_loader/.git/refs/tags/0.3.4</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>6f7aa16cee3c4f2d92048a86b3d62dc8c233f06f</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>d72b79e1c5a2830499c5bdbaa89cd757</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662064">
+                <spdx:fileName>class_loader/.git/refs/tags/0.1.15</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>d051bd3b6c397213dfd5cd604b0d6315477b7a9d</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>835a42d213e24e19fe241dcf9700e94f</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662100">
+                <spdx:fileName>class_loader/.git/config</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>7b31d0cb91c85bfda81ceb0cd6f4c2f4be03c688</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>6f6604b3fd8ec4d9536838de0824f098</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662054">
+                <spdx:fileName>class_loader/.git/refs/tags/0.1.24</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>c4697bdc5c5b3fdb52f22347a1a5e077fbe7ccf5</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>8df69f9d52dc8786825ec863f696dec8</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662067">
+                <spdx:fileName>class_loader/.git/refs/tags/0.1.12</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>944da1ef267a7d98c003547c289dd47cec769ba7</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>58bbe1c5b56330d910fe36cdd92fe61c</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662096">
+                <spdx:fileName>class_loader/.git/hooks/commit-msg.sample</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>ee1ed5aad98a435f2020b6de35c173b75d9affac</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>579a3c1e12a1e74a98169175fb913012</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662065">
+                <spdx:fileName>class_loader/.git/refs/tags/0.1.14</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>3072cf8868fa560a2737e9ec4a293d597c998c8f</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>a480a8c0d6eef4e82d9212cf202608a4</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662049">
+                <spdx:fileName>class_loader/.git/refs/tags/0.1.4</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>8514cf09feb68c89f32b4e09c15daef73cc4bfad</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>8c4deae2b371e49c5692fa593123a0ba</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662045">
+                <spdx:fileName>class_loader/.git/refs/tags/0.1.8</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>01d6377e45a43b98c48ab5bfab143d81816b334b</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>eb5e5ec37ca2b8c077083f4ae4827559</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662040">
+                <spdx:fileName>class_loader/.git/refs/tags/0.2.3</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>8a5874e14bb74b57933ea30d73c179afe6291e15</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>801d63a4a5c251c6d588c2390a7358bc</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662099">
+                <spdx:fileName>class_loader/.git/description</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>9635f1b7e12c045212819dd934d809ef07efa2f4</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>a0a7c3fff21f2aea3cfa1d0316dd816c</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662046">
+                <spdx:fileName>class_loader/.git/refs/tags/0.1.7</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>4e530c2fd37baae2605ff2cb7ad1b963acfde24b</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>4c82c28cdcbb2eb66e4302b94d561dd2</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662039">
+                <spdx:fileName>class_loader/.git/refs/tags/0.2.4</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>5ab54ce18f2a2ef7fa58742a4deb65cb9559c4f8</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>55f333c3351f83f700b510d2d863a731</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662070">
+                <spdx:fileName>class_loader/.git/refs/tags/0.1.1</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>552382b9ecf88203fc4f21bde560f601f1602de3</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>5d59ab6c3fd0ebd8ebe3d3185f8c4dc5</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662052">
+                <spdx:fileName>class_loader/.git/refs/tags/0.1.26</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>203d8e30812ba878f706647948d7c1c771b1427a</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>e03a824260d995d74e0b14b94f0ef116</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51661988">
+                <spdx:fileName>class_loader/test/CMakeLists.txt</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>46b3a54cf78eea31dac701c47be354a0c0963cb8</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>27af8ad856bc707ca3ba2b3789c98094</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662086">
+                <spdx:fileName>class_loader/.git/info/exclude</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>c879df015d97615050afa7b9641e3352a1e701ac</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>036208b4a1ab4a235d75c181e685e5a3</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="SPDX2_class_loader.zip_1595002294-spdx.rdf#SPDXRef-item51662093">
+                <spdx:fileName>class_loader/.git/hooks/pre-commit.sample</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>36aed8976dcc08b5076844f0ec645b18bc37758f</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>01b1688f97f94776baae85d77b06048b</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+        </spdx:Package>
+      </spdx:relatedSpdxElement>
+    </spdx:Relationship>
+  </spdx:relationship>
+  
+</spdx:SpdxDocument>
+</rdf:RDF>

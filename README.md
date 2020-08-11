@@ -1,4 +1,9 @@
 # ROScan
+Considering the wide usage of ROS in product development, especially in mobile robotic applications, clarification of license terms and conditions for the software provided by either ROS itself or functional ROS-packages is an important issue. Currently the main information about the license term is the general term appearing in the wiki.ros.org or at the GitHub pages for each package. However, this information often is too generic and unfortunately not complete. This unclear situation leads to a mix of different, sometimes incompatible, licenses within one package. 
+
+The ROScan project provides an overview of files and their licenses within the ROS main packages. These project results highlight an unclear license situation within the packages and may be used as a ground for discussion. 
+
+
 
 ***
 <!-- 
